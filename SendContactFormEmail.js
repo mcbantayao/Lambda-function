@@ -1,4 +1,4 @@
-#test
+
 import { SESClient, SendEmailCommand } from "@aws-sdk/client-ses";
 
 const ses = new SESClient({ region: "ap-southeast-1" });
@@ -56,4 +56,5 @@ export const handler = async (event) => {
     };
   }
 };
+
 
